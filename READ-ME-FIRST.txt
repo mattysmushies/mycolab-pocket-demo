@@ -1,0 +1,19 @@
+MYCOLAB POCKET DEMO: HOME-SCREEN APP EDITION
+============================================
+This ZIP includes an installable Progressive Web App (PWA) version of the read-only demo.
+
+IMPORTANT: Opening index.html directly from My Files (file://) will NOT enable
+Chrome's app installation. The PWA must be hosted on an HTTPS website first.
+
+To install on a Samsung:
+1. Publish the contents of this folder (not the ZIP itself) to an HTTPS static site.
+   For example, GitHub Pages or another static HTTPS host.
+2. On your Samsung, open that HTTPS address in Chrome.
+3. Chrome's three-dot menu > Add to Home screen > Install (wording varies).
+4. Launch it from the new MycoLab Demo icon.
+5. After the first full online load, test with Wi-Fi and mobile data off.
+
+Do not publish your Connected Lab database or access key. This demo has neither.
+Keep your working Stage 4 folder unchanged.
+If you just open index.html locally, the showcase will still display, but
+installation and service-worker offline caching won't be available.
